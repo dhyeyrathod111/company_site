@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HeaderHomePage from '../components/HeaderHomePage';
 import HomePageSlider from '../components/HomePageSlider';
 import ServiceArea from '../components/ServiceArea';
@@ -11,6 +11,12 @@ import BlogArea from '../components/BlogArea';
 import Footer from '../components/Footer';
 
 const Homepage = props => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
+
     return (
         <React.Fragment>
             <HeaderHomePage />

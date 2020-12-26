@@ -34,7 +34,7 @@ function OtherPageHeader() {
                     <div className="row">
                         <div className="col-md-3 col-sm-3">
                             <div className="logo">
-                                <Link clLinkssName="navbar-brand page-scroll white-logo" to={'/'}>
+                                <Link className="navbar-brand page-scroll white-logo" to={'/'}>
                                     <img src="assets/img/logo/logo2.png" alt="" />
                                 </Link>
                                 <Link className="navbar-brand page-scroll black-logo" to={'/'}>
@@ -62,6 +62,9 @@ function OtherPageHeader() {
 
                                             <li><Link to={'/'}>Home</Link></li>
                                             <li><Link to={'/about'}>About</Link></li>
+                                            <li><Link to={'/service'}>Service</Link></li>
+                                            <li><Link to={'/projects'}>Projects</Link></li>
+                                            <li><Link to={'/contact'}>contact</Link></li>
 
                                             {/* <li><a className="pages" href="index.html">Home</a>
                                                 <ul className="sub-menu">

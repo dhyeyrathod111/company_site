@@ -1,6 +1,9 @@
 import React from 'react'
 
-function Tabarea() {
+const Tabarea = props => {
+
+    console.log(props);
+
     return (
         <div className="tab-area bg-color fix area-padding">
             <div className="container">

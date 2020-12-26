@@ -62,6 +62,9 @@ const HeaderHomePage = props => {
 
                                             <li><Link to={'/'}>Home</Link></li>
                                             <li><Link to={'/about'}>About</Link></li>
+                                            <li><Link to={'/service'}>Service</Link></li>
+                                            <li><Link to={'/projects'}>Projects</Link></li>
+                                            <li><Link to={'/contact'}>contact</Link></li>
 
                                             {/* <li><a className="pages" href="index.html">Home</a>
                                                 <ul className="sub-menu">
